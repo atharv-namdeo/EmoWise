@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoWise - AI-Powered Instagram Message Assistant</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="website.css">
+    <style>
+        #landing-info {
+            margin-top: 120px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hackathon & Team Info Section -->
+    <section id="landing-info"
+        style="background:var(--white); box-shadow:var(--shadow); border-radius:20px; margin:40px auto 0 auto; max-width:800px; padding:32px 24px; text-align:center;">
+        <h2 style="color:var(--ig-purple); font-size:2.2rem; margin-bottom:10px;">InnovAct 2025</h2>
+        <p style="font-size:1.2rem; color:var(--ig-orange); margin-bottom:8px;"><strong>Track:</strong> Artificial
+            Intelligence</p>
+        <h1 style="font-size:2rem; color:var(--ig-red); margin-bottom:16px; font-weight:700;">Problem Statement:
+            Drowning in DMs: The Digital Communication Dilemma</h1>
+        <div style="margin-bottom:18px;">
+            <strong>Team Members:</strong>
+            <ul
+                style="list-style:none; padding:0; margin:10px 0 0 0; font-size:1.1rem; color:var(--dark-text); text-align:center;">
+                <li>Atharv Namdeo - 25BCE2267</li>
+                <li>Yuvraj Singh Jakhar - 25BCE2259</li>
+                <li>Sakcham Pasari - 25BCE2257</li>
+                <li>Kavya Ramaswamy - 25BCE2322</li>
+                <li>Srinidhi Akkanapragada - 25BCE2324</li>
+            </ul>
+        </div>
+        <p style="font-size:1.1rem; color:var(--ig-purple); margin-bottom:0;"><strong>Yukti Id:</strong> IR2025-995962
+        </p>
+    </section>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="EmoWise Logo" style="height: 90px;">
+            </a>
+            <h1 class="abcdef">EmoWise</h1>
+            <button class="mobile-nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Never Struggle with Instagram Responses Again</h1>
+                <p>AI-powered message suggestions with perfect tone customization for Instagram and other messaging
+                    platforms.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/atharv-namdeo/EmoWise" class="btn btn-primary">Try It</a>
+
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="browser-container">
+                    <svg class="browser" xmlns="http://www.w3.org/2000/svg" width="400" height="300"
+                        viewBox="0 0 400 300">
+                        <!-- Browser Frame -->
+                        <rect x="0" y="0" width="400" height="300" rx="15" fill="#f8f9fa" stroke="#ccc"
+                            stroke-width="2" />
+                        <!-- Browser Header -->
+                        <rect x="0" y="0" width="400" height="30" fill="#e0e0e0" />
+                        <circle cx="15" cy="15" r="5" fill="#ff5f57" />
+                        <circle cx="35" cy="15" r="5" fill="#ffbd2e" />
+                        <circle cx="55" cy="15" r="5" fill="#28c840" />
+                        <!-- Browser Content -->
+                        <rect x="10" y="40" width="380" height="250" fill="#ffffff" />
+                    </svg>
+                    <div class="chat-bubble user hidden">Hey, did you like the project I sent you?</div>
+
+                    <div class="reply-options hidden">
+                        <button class="reply-option">"Supportive: I love it! The design is fantastic."</button>
+                        <button class="reply-option">"Neutral: It's okay, but it could be better."</button>
+                        <button class="reply-option">"Critical: I'm not a fan. It needs work."</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section id="problem" class="problem">
+        <div class="container">
+            <div class="section-title">
+                <h2>Problem Statement</h2>
+                <p>Instagram's 2 billion+ users face significant challenges in managing message responses effectively.
+                </p>
+            </div>
+            <div class="problem-content fade-in"
+                style="background:var(--white); border-radius:20px; box-shadow:var(--shadow); padding:40px 35px; text-align:left;">
+                <p style="font-size:20px; margin-bottom:25px; text-align:center;">
+                    The platform's messaging system creates three core problems:
+                    <span style="font-weight:700; color:var(--ig-purple);">response fatigue</span> from constant
+                    engagement demands,
+                    <span style="font-weight:700; color:var(--ig-red);">time-consuming message composition</span> that
+                    reduces productivity, and
+                    <span style="font-weight:700; color:var(--ig-orange);">difficulty maintaining consistent
+                        communication tones</span> across conversations.
+                </p>
+                <p style="font-size:18px; margin-bottom:25px; text-align:center;">
+                    Professionals, creators, and businesses lose valuable engagement opportunities due to slow or
+                    generic responses.
+                    This digital communication gap negatively impacts relationship building, customer service
+                    effectiveness, and personal branding in our hyper-connected world where timely, authentic responses
+                    are crucial for success.
+                </p>
+                <p style="font-size:20px; font-weight:700; color:var(--dark-text); text-align:center;">
+                    Studies show that 68% of users feel overwhelmed by message volume,<br>
+                    and businesses report up to 40% lower engagement rates due to delayed responses.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <div class="section-title">
+                <h2>Proposed Solution</h2>
+                <p>EmoWise: AI-powered browser extension for Instagram messaging</p>
+            </div>
+            <div class="solution-content">
+                <div class="solution-text fade-in">
+                    <p>
+                        EmoWise analyzes Instagram messages in real-time using Gemini API, generating intelligent,
+                        tone-customized responses. Our solution offers <strong>15+ personality options</strong> ranging
+                        from professional to humorous, providing one-click solutions that save <strong>70% response
+                            time</strong> while maintaining authentic human-like communication.
+                    </p>
+                    <p>
+                        What makes EmoWise innovative is its <strong>seamless integration</strong> that works instantly
+                        without disrupting the native Instagram experience, its <strong>advanced tone preservation
+                            algorithm</strong> that maintains consistent communication style, and its
+                        <strong>privacy-first design</strong> that processes all messages locally without storing data
+                        on servers. Unlike generic chatbots, EmoWise understands conversation context and provides
+                        tailored suggestions that match the user's unique voice.
+                    </p>
+                </div>
+                <div class="solution-visual fade-in">
+                    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' rx='10' fill='%23f8f9fa'/><rect x='15' y='30' width='360' height='40' rx='5' fill='%23ffffff' stroke='%23833AB4' stroke-width='2'/><rect x='40' y='80' width='320' height='40' rx='20' fill='%23e0e0e0'/><rect x='40' y='140' width='320' height='100' rx='10' fill='%23ffffff' stroke='%23833AB4' stroke-width='2'/><circle cx='60' cy='160' r='10' fill='%23833AB4'/><circle cx='60' cy='190' r='10' fill='%23FD1D1D'/><circle cx='60' cy='220' r='10' fill='%23FCB045'/><rect x='80' y='155' width='100' height='10' rx='5' fill='%23e0e0e0'/><rect x='80' y='185' width='100' height='10' rx='5' fill='%23e0e0e0'/><rect x='80' y='215' width='100' height='10' rx='5' fill='%23e0e0e0'/><text x='20' y='60' font-size='18' font-family='Poppins, sans-serif' fill='%23833AB4'>How was your day?</text><text x='50' y='110' font-size='14' font-family='Poppins, sans-serif' fill='%23833AB4'>Select tone</text><text x='80' y='165' font-size='15' font-family='Poppins, sans-serif' fill='%23FD1D1D'>Sad</text><text x='80' y='195' font-size='15' font-family='Poppins, sans-serif' fill='%23833AB4'>Angry</text><text x='80' y='225' font-size='15' font-family='Poppins, sans-serif' fill='%23833AB4'>Excited</text></svg>"
+                        alt="EmoWise Tone Selection" class="solution-gif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Approach Section -->
+    <section id="technical" class="tech-specs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Approach</h2>
+                <p>Modern technologies and workflow powering EmoWise</p>
+            </div>
+            <div class="specs-list fade-in" style="padding:0;">
+                <div style="background:var(--white); border-radius:15px; box-shadow:var(--shadow); padding:40px 30px;">
+                    <div style="display:flex; flex-wrap:wrap; gap:40px;">
+                        <div style="flex:1; min-width:250px;">
+                            <h3 style="color:var(--ig-purple); font-size:22px; margin-bottom:15px;">Tools &amp;
+                                Technologies</h3>
+                            <p style="font-size:17px; color:var(--dark-text); margin-bottom:0;">
+                                <span style="display:inline-block; margin-bottom:8px;"><i class="fas fa-puzzle-piece"
+                                        style="color:var(--ig-purple); margin-right:8px;"></i>Chrome Extension Manifest
+                                    V3</span><br>
+                                <span style="display:inline-block; margin-bottom:8px;"><i class="fas fa-robot"
+                                        style="color:var(--ig-red); margin-right:8px;"></i>Gemini AI API</span><br>
+                                <span style="display:inline-block; margin-bottom:8px;"><i class="fas fa-code"
+                                        style="color:var(--ig-orange); margin-right:8px;"></i>JavaScript DOM
+                                    manipulation</span><br>
+                                <span style="display:inline-block; margin-bottom:8px;"><i class="fas fa-paint-brush"
+                                        style="color:var(--ig-purple); margin-right:8px;"></i>CSS3 for UI
+                                    integration</span><br>
+                                <span style="display:inline-block; margin-bottom:8px;"><i class="fas fa-file-code"
+                                        style="color:var(--ig-red); margin-right:8px;"></i>HTML5</span><br>
+                                <span style="display:inline-block;"><i class="fab fa-github"
+                                        style="color:var(--ig-orange); margin-right:8px;"></i>GitHub for version
+                                    control</span>
+                            </p>
+                        </div>
+                        <div style="flex:2; min-width:300px;">
+                            <h3 style="color:var(--ig-purple); font-size:22px; margin-bottom:15px;">Workflow
+                                Architecture</h3>
+                            <ol style="font-size:17px; color:var(--dark-text); margin-bottom:0; padding-left:20px;">
+                                <li>User installs Chrome extension</li>
+                                <li>Extension injects script when Instagram is detected</li>
+                                <li>Real-time DOM analysis captures message context</li>
+                                <li>Local processing extracts conversation data</li>
+                                <li>Request to Gemini API with context and tone preference</li>
+                                <li>Response generation and display in custom UI element</li>
+                                <li>One-click insertion into message field</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <hr style="margin:40px 0 30px 0; border:none; border-top:1px solid #eee;">
+                    <div>
+                        <h3 style="color:var(--ig-purple); font-size:22px; margin-bottom:15px;">Implementation Details
+                        </h3>
+                        <p style="font-size:17px; color:var(--dark-text); margin-bottom:0;">
+                            The extension uses a content script to monitor Instagram's message interface, a background
+                            script for API communication, and a popup interface for tone selection. All message
+                            processing occurs locally with only context data sent to the AI API for response generation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo / Prototype Section -->
+    <section id="demo" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Demo / Prototype</h2>
+                <p>See EmoWise in action</p>
+            </div>
+            <div style="display:flex; justify-content:center;">
+                <!-- YouTube video placeholder -->
+                <div style="width:100%; max-width:700px;">
+                    <div
+                        style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:15px; box-shadow:var(--shadow); background:#000;">
+                        <iframe id="emowise-demo-video" src="https://www.youtube.com/embed/0jK7CQ0NzHo?si=6FqMlLK3gjgWvZY2 " title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"
+                            referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Use Cases Section -->
+    <section id="impact" class="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Impact &amp; Use Cases</h2>
+                <p>Who benefits and how EmoWise is used</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in">
+                    <h3>Primary Beneficiaries</h3>
+                    <ul style="text-align:left; margin-top:10px;">
+                        <li>Social media managers handling multiple accounts</li>
+                        <li>Content creators engaging with their audience</li>
+                        <li>Small businesses managing customer inquiries</li>
+                        <li>Individuals seeking to improve communication efficiency</li>
+                    </ul>
+                </div>
+                <div class="benefit-card fade-in">
+                    <h3>Real-World Applications</h3>
+                    <ul style="text-align:left; margin-top:10px;">
+                        <li>Customer service response management</li>
+                        <li>Brand consistency maintenance across team members</li>
+                        <li>Mental health reduction from message fatigue</li>
+                        <li>Cross-language communication assistance</li>
+                    </ul>
+                </div>
+                <div class="benefit-card fade-in">
+                    <h3>Scalability &amp; Sustainability</h3>
+                    <p>The extension architecture supports expansion to other platforms (Facebook Messenger, WhatsApp
+                        Web, Twitter DMs). Our freemium model with premium tone packs and advanced features ensures
+                        long-term sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges Section -->
+    <section id="challenges" class="innovation">
+        <div class="container">
+            <div class="section-title">
+                <h2>Challenges Faced &amp; How You Overcame Them</h2>
+                <p>Technical and team challenges, and our solutions</p>
+            </div>
+            <div class="innovation-list">
+                <div class="innovation-item fade-in">
+                    <div class="innovation-icon"><i class="fas fa-bug"></i></div>
+                    <div>
+                        <strong>Technical Challenges:</strong>
+                        <ul style="margin-top:10px;">
+                            <li>Instagram's dynamic DOM structure required complex selector patterns and mutation
+                                observers</li>
+                            <li>API rate limiting was addressed through caching and multi-model fallback system</li>
+                            <li>UI integration needed reverse engineering of Instagram's CSS framework</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="innovation-item fade-in">
+                    <div class="innovation-icon"><i class="fas fa-tools"></i></div>
+                    <div>
+                        <strong>Solution Approach:</strong>
+                        <p>We implemented adaptive DOM selectors that work across Instagram updates, developed a smart
+                            caching system to minimize API calls, and created CSS encapsulation to prevent conflicts
+                            with Instagram's styles.</p>
+                    </div>
+                </div>
+                <div class="innovation-item fade-in">
+                    <div class="innovation-icon"><i class="fas fa-users"></i></div>
+                    <div>
+                        <strong>Team Collaboration Challenges:</strong>
+                        <p>Coordinating between AI integration and frontend development required clear API contracts and
+                            regular integration testing sessions to ensure seamless functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Scope Section -->
+    <section id="future" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Future Scope</h2>
+                <p>Planned enhancements and long-term vision</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <h3>Short-Term Enhancements (Next 6 months)</h3>
+                    <ul style="text-align:left; margin-top:10px;">
+                        <li>Expanded tone library with 10+ additional personality options</li>
+                        <li>Support for media context analysis</li>
+                        <li>Scheduled messaging capabilities</li>
+                        <li>Integration with Facebook Messenger</li>
+                    </ul>
+                </div>
+                <div class="feature-card fade-in">
+                    <h3>Long-Term Vision (1-2 years)</h3>
+                    <ul style="text-align:left; margin-top:10px;">
+                        <li>Mobile app version with system-level integration</li>
+                        <li>Advanced personalization through machine learning of user's style</li>
+                        <li>Enterprise version with team management features</li>
+                        <li>Integration with CRM platforms for business users</li>
+                    </ul>
+                </div>
+                <div class="feature-card fade-in">
+                    <h3>Technical Advancements</h3>
+                    <ul style="text-align:left; margin-top:10px;">
+                        <li>On-device AI model for complete privacy</li>
+                        <li>Voice-based message responses</li>
+                        <li>Sentiment analysis for improved response quality</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section id="conclusion" class="problem">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conclusion</h2>
+                <p>Why EmoWise stands out</p>
+            </div>
+            <div class="problem-content fade-in"
+                style="background:var(--white); border-radius:20px; box-shadow:var(--shadow); padding:40px 35px; text-align:center;">
+                <p style="font-size:20px; font-weight:700; color:var(--dark-text); margin-bottom:25px;">
+                    Reducing response time by 70% through AI-powered suggestions<br>
+                    Maintaining authentic communication with 15+ customizable tone options<br>
+                    Ensuring complete privacy through local processing and zero data storage
+                </p>
+                <p style="font-size:19px; color:var(--dark-text); margin-bottom:0;">
+                    Our project stands out through its seamless integration with Instagram's native interface, advanced
+                    context understanding, and commitment to user privacy.<br>
+                    Unlike generic chatbot solutions, EmoWise preserves the user's unique voice while dramatically
+                    reducing the cognitive load of constant messaging.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acknowledgements Section -->
+    <section id="acknowledgements" class="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Acknowledgements</h2>
+                <p>Special thanks to our supporters</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in">
+                    <ul style="text-align:left;">
+
+                        <li>The InnovAct 2025 organizing committee for this opportunity</li>
+                        <li>Google for providing access to the Gemini API</li>
+                        <li>Early beta testers who provided valuable feedback</li>
+                        <li>Our institution for supporting innovation in technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile Navigation Toggle
+        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileNavToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileNavToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile nav if open
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        const icon = mobileNavToggle.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                    fadeObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        fadeElements.forEach(element => {
+            element.style.opacity = 0;
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            fadeObserver.observe(element);
+        });
+
+        // Animated counters
+        const counters = document.querySelectorAll('.counter');
+        let hasCounted = false;
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !hasCounted) {
+                    hasCounted = true;
+                    counters.forEach(counter => {
+                        const target = +counter.getAttribute('data-target');
+                        const count = +counter.innerText;
+                        const increment = target / 100;
+
+                        const updateCounter = () => {
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + increment);
+                                setTimeout(updateCounter, 15);
+                            } else {
+                                counter.innerText = target + '%';
+                            }
+                        };
+
+                        updateCounter();
+                    });
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        if (counters.length > 0) {
+            counterObserver.observe(document.querySelector('.benefits'));
+        }
+
+        // Simple demo simulation
+        const demoButton = document.querySelector('a[href="#demo"]');
+        if (demoButton) {
+            demoButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert("Demo simulation: In a real implementation, this would show an interactive demo of EmoWise in action. For now, check out our features section to learn more!");
+            });
+        }
+
+        // Select all chat bubbles
+        const chatBubbles = document.querySelectorAll('.chat-bubble');
+        const replyOptions = document.querySelector('.reply-options');
+
+
+
+        // Function to show chat bubbles one at a time
+        chatBubbles.forEach((bubble, index) => {
+            setTimeout(() => {
+                bubble.classList.remove('hidden'); // Remove 'hidden' class to make the bubble visible
+                // Show reply options after the last chat bubble
+                if (index === chatBubbles.length - 1) {
+                    setTimeout(() => {
+                        replyOptions.classList.remove('hidden'); // Show reply options
+                    }, 2000); // Delay reply options by 2 seconds
+                }
+            }, index * 2000); // Delay each bubble by 2 seconds
+        });
+    </script>
+</body>
+
+</html>
